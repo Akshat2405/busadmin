@@ -10,7 +10,7 @@ const containerStyle = {
 function Mymap(props) {
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
-    googleMapsApiKey: "AIzaSyBecC4QHSpNo-_2QtYN4WbGo_dsi3pke9w"
+    googleMapsApiKey: ""
   })
   const center={
     lat:props.lat,
